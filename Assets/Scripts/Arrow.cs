@@ -13,6 +13,7 @@ public class Arrow : MonoBehaviour
     public int maxDamage;
 
     private Rigidbody2D rig;
+    private int x = 0;
     
     // Start is called before the first frame update
     void Start()
